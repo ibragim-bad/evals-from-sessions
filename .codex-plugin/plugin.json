@@ -1,0 +1,20 @@
+{
+  "name": "evals-from-sessions",
+  "version": "1.0.4",
+  "description": "Turn your own coding-agent sessions into verified Harbor eval tasks, with two human review checkpoints.",
+  "author": { "name": "Ibragim Badertdinov", "url": "https://ibragim.dev" },
+  "homepage": "https://github.com/ibragim-bad/evals-from-sessions",
+  "repository": "https://github.com/ibragim-bad/evals-from-sessions",
+  "license": "MIT",
+  "keywords": ["evals", "benchmark", "harbor", "coding-agents", "skills"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Evals from sessions",
+    "shortDescription": "Turn your agent sessions into evals.",
+    "longDescription": "Turn your own coding-agent sessions into verified Harbor eval tasks, with two human review checkpoints.",
+    "developerName": "Ibragim Badertdinov",
+    "category": "Coding",
+    "capabilities": ["Read", "Write"],
+    "defaultPrompt": ["Use evals-from-sessions to turn my last agent sessions into eval tasks."]
+  }
+}

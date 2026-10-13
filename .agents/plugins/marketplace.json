@@ -1,0 +1,12 @@
+{
+  "name": "evals-from-sessions",
+  "interface": { "displayName": "Evals from sessions" },
+  "plugins": [
+    {
+      "name": "evals-from-sessions",
+      "source": { "source": "local", "path": "./" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Coding"
+    }
+  ]
+}

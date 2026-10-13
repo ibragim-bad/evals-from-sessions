@@ -1,0 +1,10 @@
+{
+  "name": "evals-from-sessions",
+  "version": "1.0.4",
+  "description": "Turn your own coding-agent sessions into verified Harbor eval tasks, with two human review checkpoints.",
+  "license": "MIT",
+  "author": "Ibragim Badertdinov",
+  "repository": { "type": "git", "url": "git+https://github.com/ibragim-bad/evals-from-sessions.git" },
+  "keywords": ["pi-package", "agent-skill", "evals", "harbor"],
+  "pi": { "skills": ["./skills"] }
+}

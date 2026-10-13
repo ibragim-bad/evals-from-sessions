@@ -1,0 +1,26 @@
+schema_version = "1.4"  # replace with the value from `harbor task init`
+
+[task]
+name = "personal/TASK-NAME"
+version = "1.0.0"
+description = "ONE-LINE DESCRIPTION"
+
+[metadata]
+source_session = "SESSION-ID"   # shareable: opaque label, real id only in provenance.md
+category = "CATEGORY"
+mode = "private"          # or "shareable"
+visibility = "private"    # private mode: always "private"; shareable: "public" if publishable
+difficulty = "routine"    # or "discovery" (must-be-discovered list not empty)
+
+[verifier]
+timeout_sec = 120.0
+
+[agent]
+timeout_sec = 1200.0
+
+[environment]
+network_mode = "public"   # "allowlist" + allowed_hosts if derived from public code
+build_timeout_sec = 600.0
+cpus = 2
+memory_mb = 2048
+storage_mb = 4096
